@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    tools:context=".ReportesActivity">
+
+    <TextView
+        android:id="@+id/tvReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Reporte de Calidad del Agua"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvFlujo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvReportes"
+        android:layout_marginLeft="30dp"
+        android:text="Flujo: 1 L/min" />
+
+    <TextView
+        android:id="@+id/tvTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvFlujo"
+        android:layout_marginLeft="30dp"
+        android:text="Temperatura: 20°C" />
+
+    <TextView
+        android:id="@+id/tvPH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvTemperatura"
+        android:layout_marginLeft="30dp"
+        android:text="pH: 7.2" />
+
+    <TextView
+        android:id="@+id/tvCloro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvPH"
+        android:layout_marginLeft="30dp"
+        android:text="Cloro: 0.5 ppm" />
+
+    <TextView
+        android:id="@+id/tvORP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvCloro"
+        android:layout_marginLeft="30dp"
+        android:text="ORP: 650 mV" />
+
+    <TextView
+        android:id="@+id/tvTDS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvORP"
+        android:layout_marginLeft="30dp"
+        android:text="TDS: 500 ppm" />
+
+    <TextView
+        android:id="@+id/tvTurbidez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvTDS"
+        android:layout_marginLeft="30dp"
+        android:text="Turbidez: 1 NTU" />
+
+    <Button
+        android:id="@+id/btnGenerarReporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTurbidez"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Generar Reporte" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGenerarReporte"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Regresar" />
+
+</RelativeLayout>
+

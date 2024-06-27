@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    android:padding="16dp">
+
+    <!-- Área para mostrar los mensajes del chat -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/edit_text_message"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:id="@+id/messages_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Aquí se agregarán dinámicamente los mensajes del chat -->
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Campo de entrada de texto para escribir mensajes -->
+    <EditText
+        android:id="@+id/edit_text_message"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_toStartOf="@id/btn_send"
+        android:layout_alignParentBottom="true"
+        android:hint="Escribe tu mensaje..."
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:scrollbars="vertical" />
+
+    <!-- Botón para enviar el mensaje -->
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Enviar" />
+
+</RelativeLayout>
+

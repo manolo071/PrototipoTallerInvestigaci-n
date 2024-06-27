@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "952228844339",
+    "project_id": "sistemadecontrolagua",
+    "storage_bucket": "sistemadecontrolagua.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952228844339:android:5655ff655c5d4d5190a446",
+        "android_client_info": {
+          "package_name": "com.example.sistemadecontrolagua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgdsinMA_t5CxW9ZYVKep4JNNio3ElR8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

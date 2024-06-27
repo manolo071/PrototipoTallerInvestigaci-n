@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SistemadeControlagua</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+</resources>

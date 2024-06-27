@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E1BEE7"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvReporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:text="Cargando reporte del día..."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvReporte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Regresar" />
+
+</RelativeLayout>
